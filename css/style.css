@@ -1,0 +1,99 @@
+*{
+    margin:0;padding:0;box-sizing: border-box;
+}
+body {
+    background-color: #90c2b3;
+}
+form{
+    display: block;
+    text-align: center;
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+}
+form h3{
+    text-align: center;
+    color: #90c2b3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form input[type=email]{
+    width: 80%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 3px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[name=assunto]{
+    width: 80%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form textarea[name=mensagem]{
+    padding: 10px;
+    height: 200px;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[type=submit]{
+    margin-top: 1%;
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #76b4a2;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.5s;
+}
+
+form input[type=submit]:hover{
+    background-color: #90c2b3;
+}
+
+form textarea[name=mensagem]:focus{
+    outline: 0;
+}
+
+form textarea[name=mensagem]:focus::-webkit-input-placeholder{
+    color: transparent;
+
+}
+form input[name=assunto]:focus{
+    outline: 0;
+}
+
+form input[name=assunto]:focus::-webkit-input-placeholder{
+    color: transparent;
+
+}
+
+
+form input[type=email]:focus{
+    outline: 0;
+}
+
+form input[type=email]:focus::-webkit-input-placeholder{
+    color: transparent;
+
+}
+
