@@ -24,7 +24,6 @@ form h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 form input[type=email]{
-    background-image: "/icons/email.svg";
     width: 80%;
     height: 45px;
     border: 1px solid #ccc;
@@ -35,7 +34,7 @@ form input[type=email]{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-form input[name=assunto]{
+form input[name=subject]{
     width: 80%;
     height: 45px;
     border: 1px solid #ccc;
@@ -45,7 +44,7 @@ form input[name=assunto]{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-form textarea[name=mensagem]{
+form textarea[name=message]{
     padding: 10px;
     height: 200px;
     width: 80%;
@@ -71,23 +70,23 @@ form input[type=submit]:hover{
     background-color: #90c2b3;
 }
 
-form textarea[name=mensagem]:focus,
-form textarea[name=mensagem]:hover{
+form textarea[name=message]:focus,
+form textarea[name=message]:hover{
     outline: 0;
     border-color: #90c2b3;
 }
 
-form textarea[name=mensagem]:focus::-webkit-input-placeholder{
+form textarea[name=message]:focus::-webkit-input-placeholder{
     color: transparent;
 
 }
-form input[name=assunto]:focus,
-form input[name=assunto]:hover{
+form input[name=subject]:focus,
+form input[name=subject]:hover{
     outline: 0;
     border-color: #90c2b3;
 }
 
-form input[name=assunto]:focus::-webkit-input-placeholder{
+form input[name=subject]:focus::-webkit-input-placeholder{
     color: transparent;
 
 }
@@ -104,6 +103,35 @@ form input[type=email]:focus::-webkit-input-placeholder{
 
 }
 
-svg {
-    width: 100%;
+form h1 {
+    padding: 13px;
+    padding-bottom: 15px;
+    color: #373f3d;
+}
+
+form h4{
+    padding-bottom: 25px;
+    color: #90c2b3;
+
+}
+
+
+form a{
+    margin-top: 1%;
+    padding: 7px 30px;
+    width: 220px;
+    height: 30px;
+    cursor: pointer;
+    background-color: #76b4a2;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form a:hover{
+    background-color: #90c2b3;
 }
