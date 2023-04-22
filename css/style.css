@@ -24,6 +24,7 @@ form h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 form input[type=email]{
+    background-image: "/icons/email.svg";
     width: 80%;
     height: 45px;
     border: 1px solid #ccc;
@@ -70,16 +71,20 @@ form input[type=submit]:hover{
     background-color: #90c2b3;
 }
 
-form textarea[name=mensagem]:focus{
+form textarea[name=mensagem]:focus,
+form textarea[name=mensagem]:hover{
     outline: 0;
+    border-color: #90c2b3;
 }
 
 form textarea[name=mensagem]:focus::-webkit-input-placeholder{
     color: transparent;
 
 }
-form input[name=assunto]:focus{
+form input[name=assunto]:focus,
+form input[name=assunto]:hover{
     outline: 0;
+    border-color: #90c2b3;
 }
 
 form input[name=assunto]:focus::-webkit-input-placeholder{
@@ -88,8 +93,10 @@ form input[name=assunto]:focus::-webkit-input-placeholder{
 }
 
 
-form input[type=email]:focus{
+form input[type=email]:focus,
+form input[type=email]:hover{
     outline: 0;
+    border-color: #90c2b3;
 }
 
 form input[type=email]:focus::-webkit-input-placeholder{
@@ -97,3 +104,6 @@ form input[type=email]:focus::-webkit-input-placeholder{
 
 }
 
+svg {
+    width: 100%;
+}

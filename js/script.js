@@ -1,3 +1,5 @@
+//estilização
+
 var email = document.querySelector('input');
 var mensagem = document.querySelector('textarea');
 var assunto = document.getElementById('assuntoid')
@@ -25,6 +27,18 @@ assunto.addEventListener('focus',()=>{
 assunto.addEventListener('blur',()=>{
     assunto.style.borderColor = "#ccc";
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
