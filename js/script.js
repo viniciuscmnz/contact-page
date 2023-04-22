@@ -1,6 +1,6 @@
 //estilização
 
-var email = document.querySelector('input');
+var email = document.getElementById('email');
 var mensagem = document.querySelector('textarea');
 var assunto = document.getElementById('assuntoid')
 
