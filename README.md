@@ -1,6 +1,6 @@
 # Contact Page
 
-###Contact Page project made in HTML, CSS and JavaScript.
+Project made in HTML, CSS and JavaScript.
 
 ### Application link: 
 https://viniciuscmnz.github.io/contact-page/
